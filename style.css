@@ -1,0 +1,132 @@
+body{
+    margin: 0;
+}
+.container{
+    display: flex;
+    height: 100vh;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    letter-spacing: 0 !important;
+    direction: ltr;
+}
+div{
+    display: block;
+}
+.head{
+    flex: 1;
+    height: 90px;
+    display: block;
+    border-bottom: 1px solid #e6e6e6;
+    
+}
+.head > h1{
+    font-size: 3rem;
+    color:#e50914;
+    text-transform: uppercase;
+    margin: 10px 25px;
+    float: left;
+    cursor: pointer;
+}
+.head > h2{
+    float: right;
+    margin: 25px;
+    color: #333;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 35px;
+    cursor: pointer;
+}
+.sub-header{
+    flex: 1;
+    position: absolute;
+    top: 140px;
+    left: 144px;
+    display: block;
+    
+}
+.sub-header > span{
+    font-size: 13px;
+}
+.sub-header > h1{
+    font-size: 32px;
+    margin: 0;
+}
+.sus-tables{
+    flex: 1;
+    position: absolute;
+    top: 230px;
+    left: 88px;
+    border-radius: 20px;
+    border:3px solid rgba(128, 128, 128, 0.7) ;
+    cursor: pointer;
+
+}
+.lists{
+    list-style: none;
+    flex: 1;
+    
+}
+.tables{
+    border: 2px solid black;
+    border-radius: 12px;
+    margin: 8px;
+    background: radial-gradient(140.76% 131.96% at 100% 100%, rgb(229, 9, 20) 0%, rgba(74, 42, 150, 0.5) 73.57%, rgba(74, 42, 150, 0) 100%), rgb(29, 82, 157);
+    min-height: 120px;
+    box-sizing: border-box;
+    
+}
+.sus-details{
+    margin-right: 10px;
+    padding-right: 10px;
+}
+.sus-type{
+    font-size: 1.5rem;
+    color: #fff;
+    font-weight: 500;
+    line-height: 1.875rem;
+ 
+}
+.sus-rate{
+    font-size: 1.5rem;
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: 500;
+}
+
+.li1{
+    color: rgb(118, 118, 118);
+    font-size:  .85rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+}
+.li2{
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 2.5rem;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.2);
+}
+.second{
+    flex: 1;
+    position:absolute;
+    top: 230px;
+    left: 440px;   
+}
+.third{
+    flex: 1;
+    position:absolute;
+    top: 230px;
+    left: 790px;   
+}
+.fourth{
+    flex: 1;
+    position:absolute;
+    top: 230px;
+    left:1138px;   
+}
+.foot{
+    position: absolute;
+    top:680px;
+    left: 150px;
+    right: 100px;
+    color: #737373;
+    font-size: 13px;
+}
